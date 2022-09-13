@@ -1,0 +1,38 @@
+@media (max-width: 1023px) and (min-width: 740px) {
+    .item-width {
+        width: 50%;
+    }
+}
+
+@media (max-width: 739px) {
+    #header #nav li {
+        display: none;
+    }
+
+    #slider .text-content {
+        margin-top: 22px;
+    }
+
+    #slider .text-content b {
+        margin-right: 0px;
+        align-items: center;
+    }
+
+    #slider .text-content span {
+        display: none;
+    }
+
+    .item-width {
+        width: 100%;
+    }
+
+    #contact .btn-contact {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1023px) {
+    .item-width {
+        padding: 0 8px;
+    }
+}
